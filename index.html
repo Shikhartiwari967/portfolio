@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHIKHAR TIWARI | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">SHIKHAR<span>TIWARI</span></div>
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-avatar">
+      <!-- Replace with your image link or local path -->
+      <img src="C:\Users\DELL\portfolio\img.jpeg" alt="Shikhar Tiwari profile picture" id="avatar-img" />
+    </div>
+
+    <p class="greeting">Hello, I'm</p>
+    <h1 class="hero-name">Shikhar Tiwari</h1>
+    <p class="typing-text"><span id="typewriter"></span><span class="cursor">|</span></p>
+
+    <p class="hero-bio">
+      Passionate Computer Science Engineering student who loves creating
+      beautiful and responsive websites. I enjoy learning new technologies and
+      building modern web applications.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#contact" class="btn btn-filled">Hire Me</a>
+      <a href="#" class="btn btn-outline">Download Resume</a>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://github.com/shikhartiwari967" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shikhartiwari01" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" target="_blank"><i class="fas fa-code"></i></a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="glass-card about-card">
+      <p class="about-desc">
+        Hello! I'm <strong>Shikhar Tiwari</strong>, a <strong>B.Tech Computer Science Engineering</strong> student at <strong>GLA University, Mathura</strong>. I enjoy creating modern websites using HTML, CSS, JavaScript, and Node.js. I love solving problems, learning new technologies and improving my frontend development skills.
+      </p>
+
+      <div class="pills-grid">
+        <div class="pill"><i class="fas fa-graduation-cap"></i> B.Tech CSE</div>
+        <div class="pill"><i class="fas fa-laptop"></i> Web Developer</div>
+        <div class="pill"><i class="fas fa-rocket"></i> Frontend Enthusiast</div>
+        <div class="pill"><i class="fas fa-map-marker-alt"></i> India</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="title-underline"></div>
+
+    <div class="projects-grid">
+      <!-- Project Card 1 -->
+      <div class="glass-card project-card">
+        <div class="project-icon"><i class="fas fa-user-circle"></i></div>
+        <h3>Personal Portfolio Website</h3>
+        <p>
+          A modern responsive portfolio website built using HTML, CSS and JavaScript with smooth animations, responsive design and an attractive user interface.
+        </p>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="glass-card project-card">
+        <div class="project-icon"></div>
+        <h3>StaffPulse-Employee Management System</h3>
+        <p>
+          StaffPulse is a lightweight, high-performance employee management solution designed to streamline workforce administration. 
+          By combining instant CRUD operations (Create, Read, Update, Delete) with live filtering, real-time payroll calculations,
+           and local storage persistence, StaffPulse keeps HR operations running smoothly without the overhead of heavy backend setup.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="title-underline"></div>
+
+    <form class="contact-form" id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Write your message..." required></textarea>
+      <button type="submit" class="btn btn-filled btn-submit">Send Message</button>
+    </form>
+
+    <div class="glass-card connect-card">
+      <h3>Let's Connect</h3>
+      <p>Feel free to connect with me through LinkedIn or GitHub.</p>
+      <div class="connect-links">
+        <a href="https://www.linkedin.com/in/shikhartiwari01" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/shikhartiwari967" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:shikhartiwari2021@gmail.com"><i class="fas fa-envelope"></i> shikhartiwari2021@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Shikhar Tiwari| Designed & Developed by Shikhar Tiwari</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
