@@ -1,4 +1,4 @@
-/ Typewriter Animation Effect
+//Typewriter Animation Effect
 const words = ["Frontend Developer", "Web Developer", "CSE Student"];
 let wordIndex = 0;
 let charIndex = 0;
